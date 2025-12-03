@@ -1,0 +1,8 @@
+C:\Users\zoli\Desktop\2025_2026\12BSzoftTest\TextStatistics\TextStatistics\obj\Debug\TextStatistics.csproj.AssemblyReference.cache
+C:\Users\zoli\Desktop\2025_2026\12BSzoftTest\TextStatistics\TextStatistics\obj\Debug\TextStatistics.csproj.CoreCompileInputs.cache
+C:\Users\zoli\Desktop\2025_2026\12BSzoftTest\TextStatistics\TextStatistics\bin\Debug\TextStatistics.exe.config
+C:\Users\zoli\Desktop\2025_2026\12BSzoftTest\TextStatistics\TextStatistics\bin\Debug\TextStatistics.exe
+C:\Users\zoli\Desktop\2025_2026\12BSzoftTest\TextStatistics\TextStatistics\bin\Debug\TextStatistics.pdb
+C:\Users\zoli\Desktop\2025_2026\12BSzoftTest\TextStatistics\TextStatistics\obj\Debug\TextStatistics.exe
+C:\Users\zoli\Desktop\2025_2026\12BSzoftTest\TextStatistics\TextStatistics\obj\Debug\TextStatistics.pdb
+C:\Users\zoli\Desktop\2025_2026\12BSzoftTest\TextStatistics\TextStatistics\obj\Debug\TextStatistics.exe.config
