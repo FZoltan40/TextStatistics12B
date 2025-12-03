@@ -1,30 +1,27 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 
 namespace TextStatistics
 {
-    internal class TextStatistics
+    public class TextStatisticsLib
     {
         public static string _text;
-        public TextStatistics(string text)
+        public TextStatisticsLib(string text)
         {
             _text = text;
         }
 
-        public static int CountWords()
+        public int CountWords()
         {
-            if(string.IsNullOrWhiteSpace(_text))
+            if (string.IsNullOrWhiteSpace(_text))
                 return 0;
 
             string[] darabol = _text.Split(' ', (char)StringSplitOptions.RemoveEmptyEntries);
             return darabol.Length;
         }
 
-        public static int CountSentences() 
+        public int CountSentences()
         {
             if (string.IsNullOrWhiteSpace(_text))
                 return 0;
@@ -33,7 +30,7 @@ namespace TextStatistics
             return cleaned.Count(c => c == '|');
         }
 
-        public static string MostCommonWord()
+        public string MostCommonWord()
         {
             if (string.IsNullOrWhiteSpace(_text))
                 return string.Empty;
@@ -53,12 +50,13 @@ namespace TextStatistics
                 .First()
                 .Key;
         }
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            TextStatistics text = new TextStatistics("Ez egy mondat egy teszteléshez!");
-            Console.WriteLine(CountWords());
-            Console.WriteLine(CountSentences());
-            Console.WriteLine(MostCommonWord());
+            TextStatisticsLib text = new TextStatisticsLib("Ez egy mondat egy teszteléshez!");
+
+            Console.WriteLine(text.CountWords());
+            Console.WriteLine(text.CountSentences());
+            Console.WriteLine(text.MostCommonWord());
         }
     }
 }
